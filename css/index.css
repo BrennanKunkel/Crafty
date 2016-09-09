@@ -1,6 +1,6 @@
 body{
-    background: url("/crafty/images/grass_side.png") repeat-x;
-    background: url("/crafty/images/dirt.png") repeat;
+    background: url("/crafty/images/grass_side.png") repeat-x left top;
+    background: url("/crafty/images/dirt.png") repeat 0px 256px;
 }
 section {
   position: relative;
