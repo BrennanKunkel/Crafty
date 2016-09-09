@@ -1,7 +1,7 @@
 body {
-    z-index: 1;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+    z-index: 1;
 }
 
     body::before {
@@ -29,6 +29,6 @@ section {
         background: url("/crafty/images/mc_stone.jpg");
     }
 
-header, section, article, nav, aside, footer {
+header, section, article, nav, aside, footer, body {
     float: left;
 }
