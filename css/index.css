@@ -1,4 +1,6 @@
-body{
+div#background{
     background-image: url("/crafty/images/mc_stone.jpg");
     opacity: .6;
+    width: 100%;
+    height: 100%;
 }
