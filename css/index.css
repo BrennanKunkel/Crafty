@@ -29,6 +29,9 @@ section {
         background: url("/crafty/images/mc_stone.jpg");
     }
 
-header, section, article, nav, aside, footer, body {
+header, section, article, nav, aside, footer {
     float: left;
+}
+header, aside, footer {
+    clear: right;
 }
