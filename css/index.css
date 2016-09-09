@@ -1,29 +1,34 @@
-body{
-    z-index:1;
-}
-body::before{
-    background: url("/crafty/images/grass_side.png") repeat-x left top, url("/crafty/images/dirt.png") repeat 0px 256px;
-    opacity: .3;
-    content: "";
-  position: absolute;
-  width: 100%; 
-  height: 100%; 
-  z-index: -1;
-}
-section {
-  position: relative;
-  z-index: 1;
+body {
+    z-index: 1;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
-section::before {
-  content: "";
-  position: absolute;
-  width: 100%; 
-  height: 100%;  
-  opacity: .6; 
-  z-index: -1;
-  background: url("/crafty/images/mc_stone.jpg");
+    body::before {
+        background: url("/crafty/images/grass_side.png") repeat-x left top, url("/crafty/images/dirt.png") repeat 0px 256px;
+        opacity: .3;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+section {
+    position: relative;
+    z-index: 1;
 }
+
+    section::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: .6;
+        z-index: -1;
+        background: url("/crafty/images/mc_stone.jpg");
+    }
+
 header, section, article, nav, aside, footer {
     float: left;
 }
