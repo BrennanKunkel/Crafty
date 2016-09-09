@@ -1,9 +1,14 @@
 body{
-    
+    z-index:1;
 }
 body::before{
     background: url("/crafty/images/grass_side.png") repeat-x left top, url("/crafty/images/dirt.png") repeat 0px 256px;
     opacity: .3;
+    content: "";
+  position: absolute;
+  width: 100%; 
+  height: 100%; 
+  z-index: -1;
 }
 section {
   position: relative;
