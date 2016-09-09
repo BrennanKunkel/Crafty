@@ -1,3 +1,6 @@
+body{
+    background: url("/craft/images/grass_side.jpg");
+}
 section {
   position: relative;
   z-index: 1;
