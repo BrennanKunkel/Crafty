@@ -12,3 +12,6 @@ section::before {
   z-index: -1;
   background: url("/crafty/images/mc_stone.jpg");
 }
+header, section, article, nav, aside {
+    float: left;
+}
