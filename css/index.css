@@ -1,4 +1,4 @@
-section:before {
+section::before {
     background-image: url("/crafty/images/mc_stone.jpg");
     opacity: .6;
 }
