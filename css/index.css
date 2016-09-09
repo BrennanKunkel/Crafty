@@ -7,7 +7,7 @@ body {
     /* For the background of the page */
     body::before {
         background: url("/crafty/images/grass_side.png") repeat-x left top, url("/crafty/images/dirt.png") repeat 0px 256px;
-        opacity: .3;
+        opacity: .6;
         content: "";
         position: absolute;
         width: 100%;
