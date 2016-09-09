@@ -1,4 +1,4 @@
-body {
+section:before {
     background-image: url("/crafty/images/mc_stone.jpg");
-    background-color:rgba(0, 0, 0, 0.5);
+    opacity: .6;
 }
