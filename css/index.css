@@ -7,7 +7,7 @@ body {
     min-height: 520px;
 }
     /* For the background of the page */
-    body::after {
+    div#background {
         padding: 0px;
         background: url("/crafty/images/grass_side.png") repeat-x left top, url("/crafty/images/dirt.png") repeat 0px 256px;
         opacity: .5;
@@ -20,8 +20,8 @@ body {
             element that has the background (body::before) to the top left. */
         top: 0px;
         left: 0px;
-        min-height: 575px;
-        min-width: 550px;
+        /*min-height: 575px;
+        min-width: 550px;*/
     }
 
 section {
