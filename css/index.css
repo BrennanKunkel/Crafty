@@ -45,4 +45,11 @@ h1 {
 
 footer{
     text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+address{
+    margin: 0px;
+    padding: 0px;
 }
