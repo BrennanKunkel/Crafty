@@ -4,12 +4,11 @@ html{
 
 body {
     position: relative;
-    margin: 0px auto; /* This, along with max-width, place the content in the center with auto margins on the side. */
+    margin: 0px;
     padding: 0px;
     z-index: 1; /* Needed so that the background body::before style will work */
-    max-width: 960px;
-    min-width: 550px;
-    min-height: 520px;
+    width: 100%;
+    height: 100%;
 }
 
     /* For the background of the page */
@@ -28,6 +27,11 @@ body {
         top: 0px;
         left: 0px;
     }
+
+div#site{
+    margin: 0px auto; /* This, along with max-width, place the content in the center with auto margins on the side. */
+    max-width: 960px;
+}
 
 section {
     position: relative;
