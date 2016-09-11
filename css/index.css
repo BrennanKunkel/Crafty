@@ -24,9 +24,12 @@ body {
         left: 0px;
     }
 
-div#site{
+div#site {
     margin: 0px auto; /* This, along with max-width, place the content in the center with auto margins on the side. */
     max-width: 960px;
+}
+
+div#content {
 }
 
 section {
@@ -48,13 +51,13 @@ h1 {
     margin: 0px;
 }
 
-footer{
+footer {
     text-align: center;
     margin: 0px;
     padding: 0px;
 }
 
-address{
+address {
     margin: 0px;
     padding: 0px;
 }
