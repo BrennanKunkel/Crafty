@@ -8,14 +8,10 @@ body {
     min-height: 520px;
 }
 
-html{
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
     /* For the background of the page */
-    html::before {
+    body::before {
         padding: 0px;
+        margin: 0px;
         background: url("/crafty/images/grass_side.png") repeat-x left top, url("/crafty/images/dirt.png") repeat 0px 256px;
         opacity: .5;
         content: "";
