@@ -41,7 +41,7 @@ section {
         height: 100%;
         opacity: .6;
         z-index: -1;
-        background: url("/crafty/images/blocks/stone.jpg");
+        background: url("/crafty/images/blocks/stone.png");
     }
 
 h1 {
