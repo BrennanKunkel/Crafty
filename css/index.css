@@ -20,6 +20,7 @@ body {
         top: 0px;
         left: 0px;
         min-height: 520px;
+        min-width: 550px;
     }
 
 section {
