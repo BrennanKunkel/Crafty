@@ -3,6 +3,7 @@ body {
     padding: 0px;
     z-index: 1; /* Needed so that the background body::before style will work */
     max-width: 960px;
+    min-width: 550px;
     min-height: 520px;
 }
     /* For the background of the page */
