@@ -1,3 +1,7 @@
+html{
+    background: url("/crafty/images/blocks/obsidian.png") repeat left top;
+}
+
 body {
     position: relative;
     margin: 0px auto; /* This, along with max-width, place the content in the center with auto margins on the side. */
@@ -12,7 +16,7 @@ body {
     body::before {
         padding: 0px;
         margin: 0px;
-        background: url("/crafty/images/grass_side.png") repeat-x left top, url("/crafty/images/dirt.png") repeat 0px 256px;
+        background: url("/crafty/images/blocks/grass_side.png") repeat-x left top, url("/crafty/images/blocks/dirt.png") repeat 0px 256px;
         opacity: .5;
         content: "";
         position: absolute;
@@ -37,7 +41,7 @@ section {
         height: 100%;
         opacity: .6;
         z-index: -1;
-        background: url("/crafty/images/mc_stone.jpg");
+        background: url("/crafty/images/blocks/stone.jpg");
     }
 
 h1 {
