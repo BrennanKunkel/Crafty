@@ -60,7 +60,7 @@ h1 {
     color: black;
 }
 header{
-    background-color: green;
+    background-image: url('snowBlock.jpg');
     height: 69px;
 }
 footer {
