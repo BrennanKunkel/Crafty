@@ -59,7 +59,9 @@ h1 {
     margin: 0px;
     color: black;
 }
-
+header{
+    background-color: green;
+}
 footer {
     text-align: center;
     margin: 0px;
