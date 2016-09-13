@@ -33,7 +33,7 @@ div#site {
 div#content {
     padding: 10px;
     margin: 20px;
-    margin-top: 32px;
+    margin-top: 0px;
 }
 
 section {
@@ -61,6 +61,7 @@ h1 {
 }
 header{
     background-color: green;
+    height: 69px;
 }
 footer {
     text-align: center;
