@@ -1,0 +1,58 @@
+body {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: url("../images/blocks/grass_side.png") repeat-x left top, url("../images/blocks/dirt.png") repeat 0px 256px;
+}
+
+div.site {
+    margin: 0px auto; /* This, along with max-width, place the content in the center with auto margins on the side. */
+    max-width: 960px;
+}
+
+div.content {
+    padding: 10px;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+section {
+    position: relative;
+    z-index: 1;
+}
+
+    section::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: .6;
+        z-index: -1;
+        background: url("../images/snow.gif");
+        border: 3px solid white;
+    }
+
+img{
+    border: ridge 10px grey;
+}
+h1 {
+    margin: 0px;
+    color: black;
+}
+header{
+    background-image: url('snowBlock.jpg');
+    height: 69px;
+}
+footer {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+address {
+    margin: 0px;
+    padding: 0px;
+}
