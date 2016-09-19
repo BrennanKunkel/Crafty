@@ -94,6 +94,6 @@ header img{
 }
 
 /* header link images */
-ul.header li img {
-	
+ul.header li img:hover {
+	background-color: red;
 }
