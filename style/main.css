@@ -93,8 +93,8 @@ img.banner{
 ul.header li img:hover {
 	background-color: red;
 	border-bottom: 2px solid orange;
-	height:40px;
-	width:auto;
+	margin:5;
+
 
 }
 
