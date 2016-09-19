@@ -76,5 +76,8 @@ address {
 ul.header li{
 	list-style-type: none;
 	display: inline;
+}
+
+ul.header li img{
 	border-style:groove;
 }
