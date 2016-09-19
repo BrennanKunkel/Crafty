@@ -80,4 +80,6 @@ ul.header li{
 
 ul.header li img{
 	border-style:groove;
+	border-color:black;
+	padding:10px;
 }
