@@ -102,10 +102,14 @@ header div.logo{
 	position:center;
 	height: 200px;
 	width: 750px;
-	margin: 5px;
+	margin: 0 auto;
 	overflow:hidden;
   	position: relative;
 }
 
-
+header div.logo img.head{
+	
+	height: 200px;
+	width: 750px;
+}
 
