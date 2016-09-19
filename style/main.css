@@ -80,6 +80,6 @@ ul.header li{
 
 ul.header li img{
 	border-color:black;
-	border-width:25px;
-	margin:-5px;
+	border-width:thick;
+	margin:-3px;
 }
