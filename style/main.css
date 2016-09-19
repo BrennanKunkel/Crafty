@@ -78,6 +78,8 @@ ul.header li{
 }
 
 ul.header li img{
+	border-style:line;
 	border-color:black;
+	border-width:thick;
 
 }
