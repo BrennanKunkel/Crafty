@@ -95,6 +95,7 @@ ul.header li img {
 }
 ul.header li img:hover {
 	background-color: green;
+	opacity:.6;
 	border-bottom: 2px solid orange;
 }
 
