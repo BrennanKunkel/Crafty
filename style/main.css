@@ -13,8 +13,7 @@ div.site {
     max-width: 960px;
     min-width: 750px;
     padding: 0px;
-    /* top:200px; setting this value messes with the entire site. 
-    If anything else, i'd make the banner smaller or perhaps just increase the height of the header. */
+    
     
 }
 
@@ -34,7 +33,6 @@ section {
         z-index: -1;
         background: url("../images/snow.gif");
         border: 3px solid white;
-        /* top:200px; don't want to do this either. messes things up. just increase header height */
     }
 div.content {
     padding: 10px;
@@ -93,4 +91,9 @@ img.banner{
 
 header img{
 	height: 29px;
+
+ul.header li img{
+	border-color: black;
+	border-width: thick;
+
 }
