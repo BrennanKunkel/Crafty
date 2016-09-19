@@ -52,6 +52,12 @@ header{
 	text-align: center;
 	z-index: 2;
 }
+
+header div.links img.builds{
+	
+	height:100px;
+	width:250px;
+}
 footer {
     text-align: center;
     margin: 0px;
