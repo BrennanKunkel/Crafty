@@ -95,11 +95,8 @@ header img{
 ul.header li img{
 
 	border-color: black;
-
 	border-style:solid;
-
 	border-width:25px;
-
-	margin:-2px;
+	margin:-3px;
 
 }
