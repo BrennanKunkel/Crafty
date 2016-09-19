@@ -99,6 +99,7 @@ ul.header li img:hover {
 }
 
 header div.logo{
+	position:center;
 	height: 200px;
 	width: 750px;
 	margin: 0 auto;
@@ -106,9 +107,5 @@ header div.logo{
   	position: relative;
 }
 
-header div.logo img.head{
-	
-	
-	
-}
+
 
