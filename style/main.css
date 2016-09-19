@@ -94,7 +94,7 @@ ul.header li img {
 	height: 29px;
 }
 ul.header li img:hover {
-	background-color: rgba(0,128,0,.1);
+	background-color: rgba(0,128,0,.4);
 	border-bottom: 2px solid orange;
 }
 
