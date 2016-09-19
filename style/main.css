@@ -98,3 +98,6 @@ ul.header li img:hover {
 	background-color: red;
 	border-bottom: 2px solid orange;
 }
+ul.header li img {
+	border-bottom: 3px solid black;
+}
