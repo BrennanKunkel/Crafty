@@ -57,11 +57,6 @@ header{
 	
 }
 
-header div.links img.builds{
-	
-	height:100px;
-	width:250px;
-}
 footer {
     text-align: center;
     margin: 0px;
@@ -74,29 +69,33 @@ address {
     padding: 0px;
 }
 
+/* header list (navigation) */
 ul.header{
 	
 	margin: 0px 0px 0px 0px;
 	padding: 0px;
 }
 
+/* Header list items (for navigation) */
 ul.header li{
 	list-style-type: none;
 	display: inline;
 }
 
+/* Header link images */
 img.banner{
 	margin: 0px;
 	
 }
 
 /* header link images */
+ul.header li img {
+	border-bottom: 3px solid black;
+	height: 29px;
+}
 ul.header li img:hover {
 	background-color: green;
 	border-bottom: 2px solid orange;
 }
 
-ul.header li img {
-	border-bottom: 3px solid black;
-	height: 29px;
-}
+
