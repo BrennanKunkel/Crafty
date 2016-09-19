@@ -35,16 +35,16 @@ section {
         border: 3px solid white;
     }
 
-img{
+img.frame{
     border: ridge 10px grey;
 }
 h1 {
-    margin: 0px;
-    color: black;
+    
+    color: white;
 }
 header{
     background-image: url('snowBlock.jpg');
-    height: 69px;
+    height: 100px;
 }
 footer {
     text-align: center;
