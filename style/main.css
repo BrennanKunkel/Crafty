@@ -98,12 +98,19 @@ ul.header li img:hover {
 	border-bottom: 2px solid orange;
 }
 
-header img.head{
+header div.logo{
 	height: 200px;
 	width: 750px;
-	position: relative;
-	overflow-y: hidden;
-	
+	margin: 0 auto;
+	overflow:hidden;
+  	position: relative;
 }
 
+header div.logo img.head{
+	
+	left: 50%;
+  	margin-left: -200px;
+	 position:absolute;
+	
+}
 
