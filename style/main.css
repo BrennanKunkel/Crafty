@@ -101,7 +101,7 @@ ul.header li img:hover {
 header img.head{
 	height:200px;
 	width:750px;
-	overflow: hidden;
+	overflow-y: hidden;
 	
 }
 
