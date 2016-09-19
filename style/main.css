@@ -13,8 +13,7 @@ div.site {
     max-width: 960px;
     min-width: 750px;
     padding: 0px;
-    /* top:200px; setting this value messes with the entire site. 
-    If anything else, i'd make the banner smaller or perhaps just increase the height of the header. */
+    
     
 }
 
@@ -81,5 +80,5 @@ ul.header li{
 ul.header li img{
 	border-color:black;
 	border-width:thick;
-	margin:-3px;
+
 }
