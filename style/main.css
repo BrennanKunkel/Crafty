@@ -11,8 +11,8 @@ body {
 div.site {
     margin: 0px auto; /* This, along with max-width, place the content in the center with auto margins on the side. */
     max-width: 960px;
-	min-width: 590px;
-	padding: 0px;
+    min-width: 750px;
+    padding: 0px;
 }
 
 
