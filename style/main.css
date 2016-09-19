@@ -15,9 +15,6 @@ div.site {
 	padding: 0px;
 }
 
-header.Header{
-	z-index: 1;	
-}
 
 
 section {
@@ -51,8 +48,9 @@ h1 {
     color: black;
 }
 header{
-    height: 69px;
+	height: 69px;
 	text-align: center;
+	z-index: 1;
 }
 footer {
     text-align: center;
