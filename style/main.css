@@ -73,3 +73,8 @@ address {
     margin: 0px;
     padding: 0px;
 }
+
+ul.header li{
+	list-style-type: none;
+	display: inline;
+}
