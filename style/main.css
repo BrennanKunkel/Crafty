@@ -55,6 +55,7 @@ header{
 	height: 60px;
 	text-align: center;
 	z-index: 2;
+	
 }
 
 header div.links img.builds{
@@ -74,7 +75,22 @@ address {
     padding: 0px;
 }
 
+ul.header{
+	
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+}
+
 ul.header li{
 	list-style-type: none;
 	display: inline;
+}
+
+img.banner{
+	margin: 0px;
+	
+}
+
+header img{
+	height: 29px;
 }
