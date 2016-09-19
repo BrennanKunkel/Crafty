@@ -93,14 +93,13 @@ header img{
 	height: 29px;
 
 ul.header li img{
-<<<<<<< HEAD
 
 	border-color: black;
-	border-width: thick;
-=======
+
 	border-style:solid;
-	border-color:black;
+
 	border-width:25px;
->>>>>>> 9430ca507e385466e6aefa1ac4c6f2c262ba77d2
+
+	margin:-2px;
 
 }
