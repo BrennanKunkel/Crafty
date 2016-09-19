@@ -92,7 +92,7 @@ img.banner{
 
 /* header link images */
 ul.header li img:hover {
-	background-color: red;
+	background-color: green;
 	border-bottom: 2px solid orange;
 }
 
