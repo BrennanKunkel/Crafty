@@ -34,7 +34,7 @@ section {
         z-index: -1;
         background: url("../images/snow.gif");
         border: 3px solid white;
-        top:200px;
+        /* top:200px; don't want to do this either. messes things up. just increase header height */
     }
 div.content {
     padding: 10px;
