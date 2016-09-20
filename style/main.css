@@ -119,6 +119,10 @@ header div.logo h1{
 	color:rgb(200,200,200);
 }
 
+header div.logo hq a{
+	cursor: url(diamond_sword.cur), default;
+}
+
 /* This element class makes the header logo image clickable */
 .headerlink, .headerlink:visited{
 	
