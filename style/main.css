@@ -121,17 +121,14 @@ header div.logo h1{
 
 
 /* This element class makes the header logo image clickable */
-.headerlink, .headerlink:visited{
+a.headerlink, a.headerlink:visited{
 	
 	text-decoration: none;
 	color:rgb(200,200,200);
-}
-
-header div.logo h1 a{
 	cursor: url(diamond_sword.cur), default;
 }
 
-header div.logo h1 a:hover{
+a.headerlink:hover{
 	size:80px;
 	border-bottom: 2px solid orange;
 }
