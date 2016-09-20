@@ -1,3 +1,6 @@
+/* Import this font from google for use */
+@import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
+
 body {
     position: relative;
     margin: 0px;
@@ -124,5 +127,6 @@ header div.logo h1{
 	
 	text-decoration: none;
 	color:rgb(200,200,200);
+	font-family: "Bungee Shade", cursive;
 }
 
