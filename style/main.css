@@ -104,6 +104,8 @@ header h1.logo{
 	height: 200px;
 	width: 750px;
 	background-image: url(../images/header/crafty.jpg);
+	font-family: cursive;
+	font-size:24px;
 }
 
 
