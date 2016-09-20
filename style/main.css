@@ -119,7 +119,7 @@ header div.logo h1{
 	color:rgb(200,200,200);
 }
 
-header div.logo hq a{
+header div.logo h1 a{
 	cursor: url(diamond_sword.cur), default;
 }
 
