@@ -101,6 +101,7 @@ ul.header li img:hover {
 }
 
 header h1.logo{
+	margin: 0 auto;
 	height: 200px;
 	width: 750px;
 	background-image: url(../images/header/crafty.jpg);
