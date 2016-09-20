@@ -100,7 +100,7 @@ ul.header li img:hover {
 	border-bottom: 2px solid orange;
 }
 
-header h1.logo{
+header div.logo{
 	margin: 0 auto;
 	height: 200px;
 	width: 750px;
