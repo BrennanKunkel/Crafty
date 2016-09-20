@@ -131,5 +131,6 @@ a.headerlink, a.headerlink:visited{
 a.headerlink:hover{
 	size:80px;
 	border-bottom: 2px solid orange;
+	font-size: 1.03em;
 }
 
