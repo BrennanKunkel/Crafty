@@ -103,7 +103,7 @@ header h1.logo{
 	position:center;
 	height: 200px;
 	width: 750px;
-	background-image:"../images/header/crafty.jpg" alt="Crafty Image";
+	background-image: url(../images/header/crafty.jpg);
 }
 
 
