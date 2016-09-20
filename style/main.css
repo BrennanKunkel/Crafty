@@ -54,6 +54,7 @@ header{
 	text-align: center;
 	z-index: 2;
 	padding-top: 5px;
+	position:center;
 	
 }
 
@@ -100,12 +101,11 @@ ul.header li img:hover {
 }
 
 header h1.logo{
-	position:center;
 	height: 200px;
 	width: 750px;
 	background-image: url(../images/header/crafty.jpg);
 	font-family: cursive;
-	font-size:24px;
+	font-size:64px;
 }
 
 
