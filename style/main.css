@@ -110,6 +110,7 @@ header h1.logo{
 	border-color:black;
 	font-family: "Brush Script MT", cursive;
 	font-size:64px;
+	padding-right:2px;
 	text-align:right;
 	color:rgb(200,200,200);
 }
