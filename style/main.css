@@ -99,10 +99,11 @@ ul.header li img:hover {
 	border-bottom: 2px solid orange;
 }
 
-header img.logo{
+header h1.logo{
 	position:center;
 	height: 200px;
 	width: 750px;
+	background-image:"../images/header/crafty.jpg" alt="Crafty Image";
 }
 
 
