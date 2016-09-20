@@ -92,7 +92,7 @@ img.banner{
 ul.header li img {
 	border-bottom: 3px solid black;
 	height: 29px;
-	cursor: url(../images/cursor/cursor.jpg), url(diamond sword.cur), default;
+	cursor: url(../images/cursor/cursor.jpg), default;
 }
 ul.header li img:hover {
 	background-color: rgba(0,128,0,.6);
