@@ -120,7 +120,7 @@ header div.logo h1{
 }
 
 /* This element class makes the header logo image clickable */
-.headerlink{
+.headerlink, .headerlink:visited{
 	
 	text-decoration: none;
 	
