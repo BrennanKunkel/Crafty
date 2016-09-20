@@ -132,6 +132,7 @@ header div.logo h1 a{
 }
 
 header div.logo h1 a:hover{
-	height: 85px;
+	size:80px;
+	border-bottom: 2px solid orange;
 }
 
