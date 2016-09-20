@@ -106,7 +106,7 @@ header div.logo{
 	width: 750px;
 	background-image: url(../images/header/crafty.jpg);
 	border-style:solid;
-	border-width:thick;
+	border-width: 5px;
 	border-color:black;
 }
 
