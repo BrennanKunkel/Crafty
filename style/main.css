@@ -95,7 +95,7 @@ ul.header li img {
 	height: 29px;
 	cursor: url(diamond_sword.cur), default;
 }
-ul.header li img, header div.logo h1 a:hover {
+ul.header li img:hover {
 	background-color: rgba(0,128,0,1.0);
 	border-bottom: 2px solid orange;
 }
@@ -125,5 +125,13 @@ header div.logo h1{
 	
 	text-decoration: none;
 	color:rgb(200,200,200);
+}
+
+header div.logo h1 a{
+	cursor: url(diamond_sword.cur), default;
+}
+
+header div.logo h1 a:hover{
+	height: 85px;
 }
 
