@@ -109,7 +109,8 @@ header div.logo{
 	border-width:thick;
 	border-color:black;
 	font-family: "Brush Script MT", cursive;
-	font-size:64px;
+	font-size:32px;
+	padding-right:2px;
 	text-align:right;
 	color:rgb(200,200,200);
 }
