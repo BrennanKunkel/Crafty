@@ -107,6 +107,7 @@ header h1.logo{
 	background-image: url(../images/header/crafty.jpg);
 	font-family: cursive;
 	font-size:64px;
+	text-align:left;
 	color:rgb(200,200,200);
 }
 
