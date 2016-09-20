@@ -119,4 +119,10 @@ header div.logo h1{
 	color:rgb(200,200,200);
 }
 
+/* This element class makes the header logo image clickable */
+.headerlink{
+	
+	text-decoration: none;
+	
+}
 
