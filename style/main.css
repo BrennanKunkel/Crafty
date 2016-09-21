@@ -100,7 +100,7 @@ ul.header li img:hover {
 	border-bottom: 2px solid orange;
 }
 
-header div.logo{
+#logo{
 	margin: 0 auto;
 	height: 200px;
 	width: 750px;
@@ -110,7 +110,7 @@ header div.logo{
 	border-color:black;
 }
 
-header div.logo h1{
+#logo h1{
 	
 	font-family: "Brush Script MT", cursive;
 	font-size:64px;
