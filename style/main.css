@@ -97,7 +97,7 @@ img.banner{
 img.banner {
 	border-bottom: 3px solid black;
 	height: 29px;
-	cursor: url(diamond_sword.cur), default;
+	cursor: url(../images/cursor/diamond_sword.cur), default;
 }
 img.banner:hover {
 	background-color: rgba(0,128,0,1.0);
