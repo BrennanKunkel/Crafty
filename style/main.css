@@ -34,10 +34,15 @@ section {
         background: url("../images/snow.gif");
         border: 3px solid white;
     }
+	
+/* These marginal values indicate how close other elements may get to the main body of the page */
+/* The top margin will decide how close the main body will get to the header menu */
+/* The bottom margin will decide how close the footer will get to the main body */
 div.content {
     padding: 10px;
     margin: 20px;
     margin-top: 0px;
+	margin-left: 0px;
 	
 	padding-right: 0px;
 	margin-right: 20px;
