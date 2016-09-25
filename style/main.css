@@ -17,8 +17,6 @@ div.site {
     
 }
 
-
-
 section {
     position: relative;
     z-index: 1;
@@ -96,12 +94,12 @@ img.banner{
 }
 
 /* header link images */
-ul.header li img {
+img.banner {
 	border-bottom: 3px solid black;
 	height: 29px;
 	cursor: url(diamond_sword.cur), default;
 }
-ul.header li img:hover {
+img.banner:hover {
 	background-color: rgba(0,128,0,1.0);
 	border-bottom: 2px solid orange;
 }
