@@ -6,6 +6,22 @@
     <title>Crafty - Quote Reward</title>
 
     <link rel="stylesheet" type="text/css" href="../style/main.css">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js"></script>
+    <script type="text/javascript">
+        //This event is called when the DOM is fully loaded
+        window.addEvent("domready",function(){
+            //Creating a new AJAX request that will request 'quotes.txt' from the current directory
+            var txtRequest = new Request({
+                url:"quotes.txt",
+                onSuccess:function(response){
+                    //The response text is available in the 'response' variable
+                    //Set the value of the textarea with the id 'txtResponse' to the response
+                    $("txtResponse").value = response;
+                }
+            }).send(); //Don't forget to send our request!
+        });
+    </script>    
 </head>
 
 <body>
@@ -25,7 +41,7 @@
         <section>
             <div class="content">
                 <article>
-                   
+                   <textarea id="txtResponse" class="txtResponse"></textarea>
                 </article>
               
             </div>
