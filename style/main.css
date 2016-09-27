@@ -34,7 +34,7 @@ section {
     }
     div.gradient{
 	   margin: 0px auto;
-	   background-color: blue;
+	   background: linear-gradient(red, yellow)
 	   height:100%;
 	   width: 600px
 	    
