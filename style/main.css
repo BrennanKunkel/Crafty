@@ -33,9 +33,9 @@ section {
         border: 3px solid white;
     }
     div.gradient{
-	    
+	   align:center;
 	   background-color: blue;
-	   height:500px;
+	   height:100%;
 	   width: 600px
 	    
     }
