@@ -35,7 +35,8 @@ section {
     div.gradient::before{
 	    
 	   background-color: blue;
-	    
+	   height:500px;
+	   width: 600px
 	    
     }
 	
