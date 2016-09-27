@@ -33,8 +33,8 @@ section {
         border: 3px solid white;
     }
     div.gradient{
+		padding-top: 3px; /*the width of the border of section::before */
 	   margin: 0px auto;
-	   background: linear-gradient(red, yellow)
 	   height:100%;
 	   width: 600px
 	    
@@ -51,6 +51,9 @@ div.content {
 	
 	padding-right: 0px;
 	margin-right: 20px;
+	
+	background: linear-gradient(red, yellow);
+	height: 100%;
 }
 img.frame{
  	border: ridge 10px grey;
