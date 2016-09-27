@@ -32,6 +32,12 @@ section {
         background: url("../images/snow.gif");
         border: 3px solid white;
     }
+    div.gradient::before{
+	    
+	   background-color: blue;
+	    
+	    
+    }
 	
 /* These marginal values indicate how close other elements may get to the main body of the page */
 /* The top margin will decide how close the main body will get to the header menu */
