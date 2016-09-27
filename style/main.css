@@ -45,7 +45,6 @@ section {
 /* The bottom margin will decide how close the footer will get to the main body */
 div.content {
     padding: 10px;
-    margin: 20px;
     margin-top: 0px;
 	margin-left: 0px;
 	
