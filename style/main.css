@@ -47,11 +47,9 @@ section {
 /* The bottom margin will decide how close the footer will get to the main body */
 div.content {
     padding: 10px;
-    margin-top: 0px;
-	margin-left: 0px;
+    margin: 0px;
 	
 	padding-right: 0px;
-	margin-right: 20px;
 	
 	background: linear-gradient(#0008f5, rgba(2, 10, 255, 0.51));
 	height: 100%;
