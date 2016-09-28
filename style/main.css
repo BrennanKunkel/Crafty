@@ -35,7 +35,7 @@ section {
     div.gradient{
 		/*the width of the border of section::before doubled 
 		in order for the space to match the space on the bottom*/
-		padding-top: 6px; 
+		padding-top: 0px; 
 	   margin: 0px auto;
 	   height:100%;
 	   width: 600px
