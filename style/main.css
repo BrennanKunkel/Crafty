@@ -27,7 +27,7 @@ section {
         position: absolute;
         width: 99%;
         height: 99%;
-        opacity: .6;
+        opacity: .8;
         z-index: -1;
         background: url("../images/snow.gif");
         border: 3px solid white;
@@ -50,10 +50,10 @@ div.content {
     padding: 10px;
     margin: 0px;
 	
-	padding-right: 0px;
+    padding-right: 0px;
 	
-	background: linear-gradient(#0008f5, rgba(2, 10, 255, 0.51));
-	height: 100%;
+    background: linear-gradient(#199800, rgba(2, 10, 255, 0.51));
+    height: 100%;
 }
 img.frame{
  	border: ridge 10px grey;
