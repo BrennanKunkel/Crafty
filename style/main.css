@@ -20,28 +20,21 @@ div.site {
 section {
     position: relative;
     z-index: 1;
+	
+	background: url("../images/snow.gif");
+	border: 3px solid white;
 }
 
-    section::before {
-        content: "";
-        position: absolute;
-        width: 99%;
-        height: 99%;
-        opacity: .8;
-        z-index: -1;
-        background: url("../images/snow.gif");
-        border: 3px solid white;
-    }
-    div.gradient{
-		/*the width of the border of section::before doubled 
-		in order for the space to match the space on the bottom*/
-		padding-top: 0px; 
-	    	padding-bottom: 0px;
-	   margin: 0px auto;
-	   height:100%;
-	   width: 600px
-	    
-    }
+div.gradient{
+	/*the width of the border of section::before doubled 
+	in order for the space to match the space on the bottom*/
+	padding-top: 0px; 
+		padding-bottom: 0px;
+   margin: 0px auto;
+   height:100%;
+   width: 600px
+	
+}
 	
 /* These marginal values indicate how close other elements may get to the main body of the page */
 /* The top margin will decide how close the main body will get to the header menu */
