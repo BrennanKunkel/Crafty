@@ -8,14 +8,24 @@
 	
 	<style type="text/css">
 		@media screen and (min-width: 900px){
-			div.content-container{
+			div#creeper-background {
+				position: relative;
+				width: 100%;
+				height: 100%;
+			}
+			div#creeper-background:before{
+				position: absolute;
+				content: "";
+				height: 100%;
+				width: 100%;
 				background: url(../images/creeper.png) bottom right no-repeat;
+				background-size: 25%;
 			}
 		}
 		
         div.gradient-background {
 			font-size: 1.2em;
-			padding: 100px;
+			padding: 100px 0px 100px 20px;
 			margin-right: 20px;
 		}
 		p.name {
@@ -53,133 +63,135 @@
 		</ul>
         </header>
         <section class="snow">
-			<div class="content-container">
-				<div class="gradient-background">
-					<article>
-						<h1 style="color: rgb(15, 15, 15); font-family: Verdana, Geneva, sans-serif;">Your free username is:</h1>
-						
-						<p class="name" id="name1">Cohanydd</p>
-						<p class="name" id="name2">Rylian</p>
-						<p class="name" id="name3">Fendald</p>
-						<p class="name" id="name4">Havia</p>
-						<p class="name" id="name5">Rauldan</p>
-						<p class="name" id="name6">Traoweth</p>
-						<p class="name" id="name7">Elilald</p>
-						<p class="name" id="name8">Unauviel</p>
-						<p class="name" id="name9">Acya</p>
-						<p class="name" id="name10">Lerravia</p>
-						<p class="name" id="name11">Umorekin</p>
-						<p class="name" id="name12">Kilian</p>
-						<p class="name" id="name13">Haut</p>
-						<p class="name" id="name14">Voelia</p>
-						<p class="name" id="name15">Laraynwan</p>
-						<p class="name" id="name16">Jerucia</p>
-						<p class="name" id="name17">Gwiratlan</p>
-						<p class="name" id="name18">Acirawiel</p>
-						<p class="name" id="name19">Ybogan</p>
-						<p class="name" id="name20">Jereaven</p>
-						<p class="name" id="name21">Adriraand</p>
-						<p class="name" id="name22">Taodda</p>
-						<p class="name" id="name23">Ethyrid</p>
-						<p class="name" id="name24">Vocien</p>
-						<p class="name" id="name25">Astendakath</p>
-						<p class="name" id="name26">Koivia</p>
-						<p class="name" id="name27">Wigoder</p>
-						<p class="name" id="name28">Wiraweth</p>
-						<p class="name" id="name29">Lynwan</p>
-						<p class="name" id="name30">Sardon</p>
-						<p class="name" id="name31">Unedriseth</p>
-						<p class="name" id="name32">Adroniel</p>
-						<p class="name" id="name33">Yirannon</p>
-						<p class="name" id="name34">Gwerracia</p>
-						<p class="name" id="name35">Galaedric</p>
-						<p class="name" id="name36">Eteameth</p>
-						<p class="name" id="name37">Adwybwyn</p>
-						<p class="name" id="name38">Ybaedith</p>
-						<p class="name" id="name39">Tredrikor</p>
-						<p class="name" id="name40">Rhiaclya</p>
-						<p class="name" id="name41">Elyld</p>
-						<p class="name" id="name42">Kaeviel</p>
-						<p class="name" id="name43">Adwilis</p>
-						<p class="name" id="name44">Lothelaclya</p>
-						<p class="name" id="name45">Adwerac</p>
-						<p class="name" id="name46">Alilindra</p>
-						<p class="name" id="name47">Areranydd</p>
-						<p class="name" id="name48">Adwilide</p>
-						<p class="name" id="name49">Dwalewin</p>
-						<p class="name" id="name50">Graegord</p>
-						<p class="name" id="name51">Leade</p>
-						<p class="name" id="name52">Geinidd</p>
-						<p class="name" id="name53">Asayng</p>
-						<p class="name" id="name54">Chilinwan</p>
-						<p class="name" id="name55">Tirerien</p>
-						<p class="name" id="name56">Larum</p>
-						<p class="name" id="name57">Umiranna</p>
-						<p class="name" id="name58">Galoan</p>
-						<p class="name" id="name59">Lotheran</p>
-						<p class="name" id="name60">Gwohaf</p>
-						<p class="name" id="name61">Kailla</p>
-						<p class="name" id="name62">Serild</p>
-						<p class="name" id="name63">Werawiel</p>
-						<p class="name" id="name64">Eloerin</p>
-						<p class="name" id="name65">Araycien</p>
-						<p class="name" id="name66">Elerratrem</p>
-						<p class="name" id="name67">Eloissa</p>
-						<p class="name" id="name68">Yaowyn</p>
-						<p class="name" id="name69">Asterang</p>
-						<p class="name" id="name70">Kedarejar</p>
-						<p class="name" id="name71">Gelaviel</p>
-						<p class="name" id="name72">Onarem</p>
-						<p class="name" id="name73">Yboella</p>
-						<p class="name" id="name74">Sirenn</p>
-						<p class="name" id="name75">Unaecia</p>
-						<p class="name" id="name76">Kedalidus</p>
-						<p class="name" id="name77">Glilini</p>
-						<p class="name" id="name78">Etireseth</p>
-						<p class="name" id="name79">Adwasien</p>
-						<p class="name" id="name80">Auldan</p>
-						<p class="name" id="name81">Aseidia</p>
-						<p class="name" id="name82">Brardoder</p>
-						<p class="name" id="name83">Cadaedien</p>
-						<p class="name" id="name84">Cadamas</p>
-						<p class="name" id="name85">Breimeth</p>
-						<p class="name" id="name86">Rhaledon</p>
-						<p class="name" id="name87">Ereraven</p>
-						<p class="name" id="name88">Uniraric</p>
-						<p class="name" id="name89">Abigori</p>
-						<p class="name" id="name90">Creliwyn</p>
-						<p class="name" id="name91">Prywiel</p>
-						<p class="name" id="name92">Faekin</p>
-						<p class="name" id="name93">Erearith</p>
-						<p class="name" id="name94">Oleak</p>
-						<p class="name" id="name95">Gaylind</p>
-						<p class="name" id="name96">Qorech</p>
-						<p class="name" id="name97">Gwerramwen</p>
-						<p class="name" id="name98">Ulerraw</p>
-						<p class="name" id="name99">Kaaugan</p>
-						<p class="name" id="name100">Friarwen</p>
-						<p class="name" id="name101">Adreiwyth</p>
-						<p class="name" id="name102">Talelith</p>
-						<p class="name" id="name103">Rhayg</p>
-						<p class="name" id="name104">Dwelirien</p>
-						<p class="name" id="name105">Nydokin</p>
-						<p class="name" id="name106">Etheriswen</p>
-						<p class="name" id="name107">Mirirard</p>
-						<p class="name" id="name108">Greracien</p>
-						<p class="name" id="name109">Laroiwyr</p>
-						<p class="name" id="name110">Rardowiel</p>
-						<p class="name" id="name111">Fralired</p>
-						<p class="name" id="name112">Qielle</p>
-						<p class="name" id="name113">Adwored</p>
-						<p class="name" id="name114">Adwareviel</p>
-						<p class="name" id="name115">Breraron</p>
-						<p class="name" id="name116">Yiedith</p>
-						<p class="name" id="name117">Cherin</p>
-						<p class="name" id="name118">Rhoallan</p>
-						<iframe src="" onload="displayRandomUsername();" style="display: none;"></iframe>
-						
-						<p align="center">Enjoy!</p>
-					</article>
+			<div id="creeper-background">
+				<div class="content-container">
+					<div class="gradient-background">
+						<article>
+							<h1 style="color: rgb(15, 15, 15); font-family: Verdana, Geneva, sans-serif;">Your free username is:</h1>
+							
+							<p class="name" id="name1">Cohanydd</p>
+							<p class="name" id="name2">Rylian</p>
+							<p class="name" id="name3">Fendald</p>
+							<p class="name" id="name4">Havia</p>
+							<p class="name" id="name5">Rauldan</p>
+							<p class="name" id="name6">Traoweth</p>
+							<p class="name" id="name7">Elilald</p>
+							<p class="name" id="name8">Unauviel</p>
+							<p class="name" id="name9">Acya</p>
+							<p class="name" id="name10">Lerravia</p>
+							<p class="name" id="name11">Umorekin</p>
+							<p class="name" id="name12">Kilian</p>
+							<p class="name" id="name13">Haut</p>
+							<p class="name" id="name14">Voelia</p>
+							<p class="name" id="name15">Laraynwan</p>
+							<p class="name" id="name16">Jerucia</p>
+							<p class="name" id="name17">Gwiratlan</p>
+							<p class="name" id="name18">Acirawiel</p>
+							<p class="name" id="name19">Ybogan</p>
+							<p class="name" id="name20">Jereaven</p>
+							<p class="name" id="name21">Adriraand</p>
+							<p class="name" id="name22">Taodda</p>
+							<p class="name" id="name23">Ethyrid</p>
+							<p class="name" id="name24">Vocien</p>
+							<p class="name" id="name25">Astendakath</p>
+							<p class="name" id="name26">Koivia</p>
+							<p class="name" id="name27">Wigoder</p>
+							<p class="name" id="name28">Wiraweth</p>
+							<p class="name" id="name29">Lynwan</p>
+							<p class="name" id="name30">Sardon</p>
+							<p class="name" id="name31">Unedriseth</p>
+							<p class="name" id="name32">Adroniel</p>
+							<p class="name" id="name33">Yirannon</p>
+							<p class="name" id="name34">Gwerracia</p>
+							<p class="name" id="name35">Galaedric</p>
+							<p class="name" id="name36">Eteameth</p>
+							<p class="name" id="name37">Adwybwyn</p>
+							<p class="name" id="name38">Ybaedith</p>
+							<p class="name" id="name39">Tredrikor</p>
+							<p class="name" id="name40">Rhiaclya</p>
+							<p class="name" id="name41">Elyld</p>
+							<p class="name" id="name42">Kaeviel</p>
+							<p class="name" id="name43">Adwilis</p>
+							<p class="name" id="name44">Lothelaclya</p>
+							<p class="name" id="name45">Adwerac</p>
+							<p class="name" id="name46">Alilindra</p>
+							<p class="name" id="name47">Areranydd</p>
+							<p class="name" id="name48">Adwilide</p>
+							<p class="name" id="name49">Dwalewin</p>
+							<p class="name" id="name50">Graegord</p>
+							<p class="name" id="name51">Leade</p>
+							<p class="name" id="name52">Geinidd</p>
+							<p class="name" id="name53">Asayng</p>
+							<p class="name" id="name54">Chilinwan</p>
+							<p class="name" id="name55">Tirerien</p>
+							<p class="name" id="name56">Larum</p>
+							<p class="name" id="name57">Umiranna</p>
+							<p class="name" id="name58">Galoan</p>
+							<p class="name" id="name59">Lotheran</p>
+							<p class="name" id="name60">Gwohaf</p>
+							<p class="name" id="name61">Kailla</p>
+							<p class="name" id="name62">Serild</p>
+							<p class="name" id="name63">Werawiel</p>
+							<p class="name" id="name64">Eloerin</p>
+							<p class="name" id="name65">Araycien</p>
+							<p class="name" id="name66">Elerratrem</p>
+							<p class="name" id="name67">Eloissa</p>
+							<p class="name" id="name68">Yaowyn</p>
+							<p class="name" id="name69">Asterang</p>
+							<p class="name" id="name70">Kedarejar</p>
+							<p class="name" id="name71">Gelaviel</p>
+							<p class="name" id="name72">Onarem</p>
+							<p class="name" id="name73">Yboella</p>
+							<p class="name" id="name74">Sirenn</p>
+							<p class="name" id="name75">Unaecia</p>
+							<p class="name" id="name76">Kedalidus</p>
+							<p class="name" id="name77">Glilini</p>
+							<p class="name" id="name78">Etireseth</p>
+							<p class="name" id="name79">Adwasien</p>
+							<p class="name" id="name80">Auldan</p>
+							<p class="name" id="name81">Aseidia</p>
+							<p class="name" id="name82">Brardoder</p>
+							<p class="name" id="name83">Cadaedien</p>
+							<p class="name" id="name84">Cadamas</p>
+							<p class="name" id="name85">Breimeth</p>
+							<p class="name" id="name86">Rhaledon</p>
+							<p class="name" id="name87">Ereraven</p>
+							<p class="name" id="name88">Uniraric</p>
+							<p class="name" id="name89">Abigori</p>
+							<p class="name" id="name90">Creliwyn</p>
+							<p class="name" id="name91">Prywiel</p>
+							<p class="name" id="name92">Faekin</p>
+							<p class="name" id="name93">Erearith</p>
+							<p class="name" id="name94">Oleak</p>
+							<p class="name" id="name95">Gaylind</p>
+							<p class="name" id="name96">Qorech</p>
+							<p class="name" id="name97">Gwerramwen</p>
+							<p class="name" id="name98">Ulerraw</p>
+							<p class="name" id="name99">Kaaugan</p>
+							<p class="name" id="name100">Friarwen</p>
+							<p class="name" id="name101">Adreiwyth</p>
+							<p class="name" id="name102">Talelith</p>
+							<p class="name" id="name103">Rhayg</p>
+							<p class="name" id="name104">Dwelirien</p>
+							<p class="name" id="name105">Nydokin</p>
+							<p class="name" id="name106">Etheriswen</p>
+							<p class="name" id="name107">Mirirard</p>
+							<p class="name" id="name108">Greracien</p>
+							<p class="name" id="name109">Laroiwyr</p>
+							<p class="name" id="name110">Rardowiel</p>
+							<p class="name" id="name111">Fralired</p>
+							<p class="name" id="name112">Qielle</p>
+							<p class="name" id="name113">Adwored</p>
+							<p class="name" id="name114">Adwareviel</p>
+							<p class="name" id="name115">Breraron</p>
+							<p class="name" id="name116">Yiedith</p>
+							<p class="name" id="name117">Cherin</p>
+							<p class="name" id="name118">Rhoallan</p>
+							<iframe src="" onload="displayRandomUsername();" style="display: none;"></iframe>
+							
+							<p align="center">Enjoy!</p>
+						</article>
+					</div>
 				</div>
 			</div>
         </section>
