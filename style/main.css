@@ -38,30 +38,30 @@ div.site {
     padding: 0px;
 }
 
+/* These marginal values indicate how close other elements may get to the main body of the page */
+/* The top margin will decide how close the main body will get to the header menu */
+/* The bottom margin will decide how close the footer will get to the main body */
 section.snow {
 	background: url("../images/snow.gif");
 	border: 3px solid white;
+	padding: 0px;
+	margin: 0px;
 }
 
-div.gradient{
+
+div.content-container{
 	padding: 0px;
 	margin: 0px auto;
 	height:100%;
 	width: 600px
 }
 	
-/* These marginal values indicate how close other elements may get to the main body of the page */
-/* The top margin will decide how close the main body will get to the header menu */
-/* The bottom margin will decide how close the footer will get to the main body */
-div.content {
-    padding: 10px;
-    
+
+div.gradient-background {
+	height: 100%;
 	margin: 0px;
-	
-    padding-right: 0px;
-	
+	padding: 10px;
     background: linear-gradient(#199800, rgba(2, 10, 255, 0.51));
-    height: 100%;
 }
 
 /* 
@@ -152,6 +152,10 @@ h1 {
     margin: 0px;
     color: black;
     font-size:2em;
+}
+
+h2 {
+	margin: 0px;
 }
 
 address {
