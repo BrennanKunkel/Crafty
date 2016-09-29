@@ -41,7 +41,7 @@ div.site {
 /* These marginal values indicate how close other elements may get to the main body of the page */
 /* The top margin will decide how close the main body will get to the header menu */
 /* The bottom margin will decide how close the footer will get to the main body */
-section.snow {
+section.main-container {
 	background: url("../images/snow.gif");
 	border: 3px solid white;
 	padding: 0px;
