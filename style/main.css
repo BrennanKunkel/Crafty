@@ -38,6 +38,11 @@ div.site {
     padding: 0px;
 }
 
+section.snow {
+	background: url("../images/snow.gif");
+	border: 3px solid white;
+}
+
 div.gradient{
 	padding: 0px;
 	margin: 0px auto;
@@ -58,12 +63,6 @@ div.content {
     background: linear-gradient(#199800, rgba(2, 10, 255, 0.51));
     height: 100%;
 }
-
-section {
-	background: url("../images/snow.gif");
-	border: 3px solid white;
-}
-
 
 /* 
 
