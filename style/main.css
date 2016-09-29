@@ -8,6 +8,13 @@ CS 175 Project, Fall 2016
 */
 
 
+/* Import a font from google. */
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Upright';
+/* 
+To use this font, use: 
+font-family: 'Cormorant Upright', serif; 
+*/
+
 /* 
 
 Main site structure styles 
