@@ -1,5 +1,21 @@
+/*
+
+CSS for Alya Kemi website.
+
+Authors: Erich Berger, Nathan Ahrens, Brennan Kunkel
+CS 175 Project
+
+*/
+
+
+/* 
+
+Main site structure styles 
+
+*/
+
+
 body {
-    position: relative;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -13,27 +29,13 @@ div.site {
     max-width: 960px;
     min-width: 760px;
     padding: 0px;
-    
-    
-}
-
-section {
-    position: relative;
-    z-index: 1;
-	
-	background: url("../images/snow.gif");
-	border: 3px solid white;
 }
 
 div.gradient{
-	/*the width of the border of section::before doubled 
-	in order for the space to match the space on the bottom*/
-	padding-top: 0px; 
-		padding-bottom: 0px;
-   margin: 0px auto;
-   height:100%;
-   width: 600px
-	
+	padding: 0px;
+	margin: 0px auto;
+	height:100%;
+	width: 600px
 }
 	
 /* These marginal values indicate how close other elements may get to the main body of the page */
@@ -41,45 +43,41 @@ div.gradient{
 /* The bottom margin will decide how close the footer will get to the main body */
 div.content {
     padding: 10px;
-    margin: 0px;
+    
+	margin: 0px;
 	
     padding-right: 0px;
 	
     background: linear-gradient(#199800, rgba(2, 10, 255, 0.51));
     height: 100%;
 }
-img.frame{
- 	border: ridge 10px grey;
+
+section {
+	background: url("../images/snow.gif");
+	border: 3px solid white;
 }
-h1 {
-    margin: 0px;
-    color: black;
-    font-size:2em;
-}
+
+
+/* 
+
+Header and footer content styles 
+
+*/
+
 header{
 	height: 248px;
 	text-align: center;
-	z-index: 2;
 	padding-top: 5px;
-	
-	
 }
 
 footer {
     text-align: center;
     margin: 0px;
     padding: 0px;
-    /* bottom:50px; this is a possibility if we so desire to make the footer stay on the bottom. */
-}
-
-address {
-    margin: 0px;
-    padding: 0px;
 }
 
 /* header list (navigation) */
 ul.header{
-	
 	margin: 0px 0px 0px 0px;
 	padding: 0px;
 }
@@ -90,14 +88,9 @@ ul.header li{
 	display: inline;
 }
 
-/* Header link images */
-img.banner{
-	margin: 0px;
-	
-}
-
 /* header link images */
 img.banner {
+	margin: 0px;
 	border-bottom: 3px solid black;
 	height: 29px;
 	cursor: url(../images/cursor/diamond_sword.cur), default;
@@ -118,7 +111,6 @@ img.banner:hover {
 }
 
 #logo h1{
-	
 	font-family: "Brush Script MT", cursive;
 	font-size:64px;
 	padding-right:10px;
@@ -129,7 +121,6 @@ img.banner:hover {
 
 /* This element class makes the header logo image clickable */
 a.headerlink, a.headerlink:visited{
-	
 	text-decoration: none;
 	color:rgb(200,200,200);
 	cursor: url(../images/cursor/diamond_sword.cur), default;
@@ -138,7 +129,26 @@ a.headerlink, a.headerlink:visited{
 a.headerlink:hover{
 	size:80px;
 	border-bottom: 2px solid orange;
-	font-size: 1.03em;
+	font-size: 1.03em; /* Make the text larger when hovered */
 	color: white;
 }
 
+
+
+/* 
+
+General content styles 
+
+*/
+
+
+h1 {
+    margin: 0px;
+    color: black;
+    font-size:2em;
+}
+
+address {
+    margin: 0px;
+    padding: 0px;
+}
