@@ -36,6 +36,7 @@ div.site {
     max-width: 960px;
     min-width: 760px;
     padding: 0px;
+	background: linear-gradient(rgba(2, 255, 15, 0.2), rgba(2, 10, 255, 0.2));
 }
 
 /* These marginal values indicate how close other elements may get to the main body of the page */
