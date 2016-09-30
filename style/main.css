@@ -42,11 +42,23 @@ div.site {
 /* The top margin will decide how close the main body will get to the header menu */
 /* The bottom margin will decide how close the footer will get to the main body */
 section.main-container {
-	background: url("../images/snow.gif");
+	position: relative;
 	border: 3px solid white;
 	padding: 0px;
 	margin: 0px;
 }
+	/* This allows for transparent background. If you want the normal background, 
+		move the background property back to the main selector and get rid of the 
+		main selector's "position" attribute.*/
+	section.main-container::before {
+		background: url("../images/snow.gif");
+		content: "";
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		z-index: -1;
+		opacity: .6;
+	}
 
 
 div.content-container{
