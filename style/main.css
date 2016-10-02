@@ -35,8 +35,8 @@ div.site {
     margin: 0px auto; /* This, along with max-width, place the content in the center with auto margins on the side. */
     max-width: 960px;
     min-width: 760px;
-    padding: 0px;
-	background: linear-gradient(rgba(2, 255, 15, 0.2), rgba(2, 10, 255, 0.2));
+    padding: 0px 10px;
+	background: rgba(20, 20, 20, 0.5);
 }
 
 /* These marginal values indicate how close other elements may get to the main body of the page */
@@ -47,6 +47,7 @@ section.main-container {
 	border: 3px solid white;
 	padding: 0px;
 	margin: 0px;
+	border-radius: 20px;
 }
 	/* This allows for transparent background. If you want the normal background, 
 		move the background property back to the main selector and get rid of the 
@@ -59,6 +60,7 @@ section.main-container {
 		position: absolute;
 		z-index: -1;
 		opacity: .6;
+		border-radius: 15px;
 	}
 
 
