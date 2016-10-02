@@ -114,7 +114,7 @@ img.banner {
 	margin: 0px;
 	border-bottom: 3px solid black;
 	height: 29px;
-	cursor: url(../images/cursor/diamond_sword.cur), default;
+	
 }
 img.banner:hover {
 	background-color: rgba(0,128,0,1.0);
@@ -139,12 +139,16 @@ img.banner:hover {
 	color:rgb(200,200,200);
 }
 
+/* cursor for clickable items in header */
+a.headerlink:hover, img.banner:hover {
+	cursor: url(../images/cursor/diamond_sword.cur), url(images/cursor/diamond_sword.cur), default;
+}
 
 /* This element class makes the header logo image clickable */
 a.headerlink, a.headerlink:visited{
 	text-decoration: none;
 	color:rgb(200,200,200);
-	cursor: url(../images/cursor/diamond_sword.cur), default;
+	
 }
 
 a.headerlink:hover{
