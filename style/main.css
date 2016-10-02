@@ -37,6 +37,8 @@ div.site {
     min-width: 760px;
     padding: 0px 10px;
 	background: rgba(20, 20, 20, 0.5);
+	border-right: 1px solid black;
+	border-left: 1px solid black;
 }
 
 /* These marginal values indicate how close other elements may get to the main body of the page */
