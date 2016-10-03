@@ -167,7 +167,7 @@ a.headerlink:hover, img.banner:hover {
 	/* must list the cursor path twice in two different ways (relative to the css file as well as 
 		relative to the html file that is active) in order for IE to use it (IE needs the cursor image
 		to be listed relative to the active html file. Thus if the index.html is active, it will use
-		images/ rather than ../images/). 
+		images/ rather than ../images/). */
 	cursor: url(../images/cursor/diamond_sword.cur), url(images/cursor/diamond_sword.cur), default;
 }
 
