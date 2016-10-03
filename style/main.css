@@ -25,25 +25,25 @@ Main site structure styles
 
 /*
 body, div.site, section.main-container, div.content-container, div.gradient-background {
-	overflow: auto;
+overflow: auto;
 }
 */
 body {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
-    color: white;
-    background: url("../images/blocks/grass_side.png") repeat-x left top, url("../images/blocks/dirt.png") repeat 0px 256px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	color: white;
+	background: url("../images/blocks/grass_side.png") repeat-x left top, url("../images/blocks/dirt.png") repeat 0px 256px;
 }
 
 div.site {
-	
-    margin: 0px auto; /* This, along with max-width, place the content in the center with auto margins on the side. */
-    max-width: 960px;
-    min-width: 760px;
-    padding: 0px 10px;
-	
+
+	margin: 0px auto; /* This, along with max-width, place the content in the center with auto margins on the side. */
+	max-width: 960px;
+	min-width: 760px;
+	padding: 0px 10px;
+
 	/* Background */
 	background: rgba(20,20,20,.5); /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
@@ -54,7 +54,7 @@ div.site {
 	background: -moz-linear-gradient(left, rgba(20, 20, 20, 0.8), rgba(100, 100, 100, 0.5), rgba(20, 20, 20, 0.8));
 	/* Standard syntax */
 	background: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(100, 100, 100, 0.5), rgba(20, 20, 20, 0.8));
-	
+
 	border-right: 1px solid black;
 	border-left: 1px solid black;
 }
@@ -71,8 +71,8 @@ section.main-container {
 	border-radius: 20px;
 }
 	/* This allows for transparent background. If you want the normal background, 
-		move the background property back to the main selector and get rid of the 
-		main selector's "position" attribute.*/
+	move the background property back to the main selector and get rid of the 
+	main selector's "position" attribute.*/
 	section.main-container::before {
 		background: url("../images/snow.gif");
 		content: "";
@@ -92,13 +92,13 @@ div.content-container{
 	height:100%;
 	width: 700px
 }
-	
+
 
 div.gradient-background {
 	height: 100%;
 	margin: 0px;
 	padding: 10px;
-	
+
 	/* Background */
 	background: rgba(0,255,0,.5); /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
@@ -108,7 +108,7 @@ div.gradient-background {
 	/* For Fx 3.6 to 15 */
 	background: -moz-linear-gradient(#199800, rgba(2, 10, 255, 0.51));
 	/* Standard syntax */
-    background: linear-gradient(#199800, rgba(2, 10, 255, 0.51));
+	background: linear-gradient(#199800, rgba(2, 10, 255, 0.51));
 }
 
 /* 
@@ -119,17 +119,17 @@ Header and footer content styles
 header, footer {
 	text-align: center;
 	clear: left;
-	
+
 }
 header{
 	height: 248px;
-	
+
 	padding-top: 5px;
 }
 
 footer {
-    margin: 5px 0px 0px 0px;
-    padding: 5px;
+	margin: 5px 0px 0px 0px;
+	padding: 5px;
 	background: url("../images/blocks/stone.png") left bottom;
 	height: 50px;
 	color: black;
@@ -154,7 +154,7 @@ img.banner {
 	margin: 0px;
 	border-bottom: 3px solid black;
 	height: 29px;
-	
+
 }
 img.banner:hover {
 	background-color: rgba(0,128,0,1.0);
@@ -181,18 +181,18 @@ img.banner:hover {
 
 /* cursor for clickable items in header */
 a.headerlink:hover, img.banner:hover {
-	/* must list the cursor path twice in two different ways (relative to the css file as well as 
-		relative to the html file that is active) in order for IE to use it (IE needs the cursor image
-		to be listed relative to the active html file. Thus if the index.html is active, it will use
-		images/ rather than ../images/). */
-	cursor: url(../images/cursor/diamond_sword.cur), url(images/cursor/diamond_sword.cur), default;
+/* must list the cursor path twice in two different ways (relative to the css file as well as 
+relative to the html file that is active) in order for IE to use it (IE needs the cursor image
+to be listed relative to the active html file. Thus if the index.html is active, it will use
+images/ rather than ../images/). */
+cursor: url(../images/cursor/diamond_sword.cur), url(images/cursor/diamond_sword.cur), default;
 }
 
 /* This element class makes the header logo image clickable */
 a.headerlink, a.headerlink:visited{
 	text-decoration: none;
 	color:rgb(200,200,200);
-	
+
 }
 
 a.headerlink:hover{
@@ -229,9 +229,9 @@ General content styles
 
 
 h1 {
-    margin: 0px;
-    color: black;
-    font-size:2em;
+	margin: 0px;
+	color: black;
+	font-size:2em;
 }
 
 h2 {
@@ -239,8 +239,8 @@ h2 {
 }
 
 address {
-    margin: 0px;
-    padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 nav{
 	clear: left;
