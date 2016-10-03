@@ -22,6 +22,12 @@ Main site structure styles
 */
 
 
+
+/*
+body, div.site, section.main-container, div.content-container, div.gradient-background {
+	overflow: auto;
+}
+*/
 body {
     margin: 0px;
     padding: 0px;
@@ -32,6 +38,7 @@ body {
 }
 
 div.site {
+	
     margin: 0px auto; /* This, along with max-width, place the content in the center with auto margins on the side. */
     max-width: 960px;
     min-width: 760px;
@@ -56,6 +63,7 @@ div.site {
 /* The top margin will decide how close the main body will get to the header menu */
 /* The bottom margin will decide how close the footer will get to the main body */
 section.main-container {
+
 	position: relative;
 	border: 3px solid white;
 	padding: 0px;
@@ -78,10 +86,11 @@ section.main-container {
 
 
 div.content-container{
+
 	padding: 0px;
 	margin: 0px auto;
 	height:100%;
-	width: 600px
+	width: 700px
 }
 	
 
@@ -107,17 +116,25 @@ div.gradient-background {
 Header and footer content styles 
 
 */
-
+header, footer {
+	text-align: center;
+	clear: left;
+	
+}
 header{
 	height: 248px;
-	text-align: center;
+	
 	padding-top: 5px;
 }
 
 footer {
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
+    margin: 5px 0px 0px 0px;
+    padding: 5px;
+	background: url("../images/blocks/stone.png") left bottom;
+	height: 50px;
+	color: black;
+	border-top: 3px solid black;
+	font-size: 1.3em;
 }
 
 /* header list (navigation) */
@@ -186,6 +203,23 @@ a.headerlink:hover{
 }
 
 
+/* Aside Element and its sibling section element */
+#index-aside{
+	float: right;
+	width: 39%;
+	border: 1px solid gray;
+}
+#index-section {
+	float: left;
+	width: 60%;
+}
+
+/* iframe containing updates from mojang */
+iframe#mojang-updates {
+	height: 100%;
+	width: 100%;
+	border:none;
+}
 
 /* 
 
@@ -207,4 +241,7 @@ h2 {
 address {
     margin: 0px;
     padding: 0px;
+}
+nav{
+	clear: left;
 }
