@@ -133,8 +133,18 @@ footer {
 	background: url("../images/blocks/stone.png") left bottom;
 	height: 50px;
 	color: black;
-	border-top: 3px solid black;
+	border: 3px solid black;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 	font-size: 1.3em;
+}
+
+footer a {
+	color: #66ffff;
+}
+
+footer a:hover {
+	background-color: rgba(20, 20, 20, .3);
 }
 
 /* header list (navigation) */
