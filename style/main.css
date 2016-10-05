@@ -90,7 +90,7 @@ div.content-container{
 	padding: 0px;
 	margin: 0px auto;
 	height:100%;
-	width: 700px
+	width: 600px
 }
 
 
@@ -210,25 +210,6 @@ a.headerlink:hover{
 	border-bottom: 2px solid orange;
 	font-size: 1.03em; /* Make the text larger when hovered */
 	color: white;
-}
-
-
-/* Aside Element and its sibling section element */
-#index-aside{
-	float: right;
-	width: 39%;
-	border: 1px solid gray;
-}
-#index-section {
-	float: left;
-	width: 60%;
-}
-
-/* iframe containing updates from mojang */
-iframe#mojang-updates {
-	height: 100%;
-	width: 100%;
-	border:none;
 }
 
 /* 
