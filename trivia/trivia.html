@@ -9,7 +9,22 @@
 	<link rel="icon" href="../favicon.ico">
 
 	<style type="text/css">
-		
+		.hiddenRewards{
+			display: none;
+			line-height: 30px;
+		}
+		a.hiddenRewards{
+			color: gray;
+			font-size: 1.2em;
+		}
+		a.hiddenRewards:active {
+			color: lightgray;
+			background-color: rgba(20, 20, 20, .3);
+		}
+		a.hiddenRewards:hover {
+			background-color: rgba(20, 20, 20, .3);
+		}
+
 		h3{
 			color: rgb(200, 200, 200);
 		}
@@ -17,29 +32,20 @@
 		ol {
 			list-style-type: lower-alpha;
 		}
-		#hiddenRewards {
-			display: none;
-		}
-
-		.correctChoice {
-			background-color: rgb(153, 204, 0);
-		}
-
-		.incorrectChoice {
-			background-color: rgb(225, 25, 25);
-		}
 	</style>
 
 	<script type="text/javascript">
 		var maxQuestion = 10;
 		var maxChoice = 4;
 		var currentID;
+		var correctAnswer = 0;
 
 		function validateForm(){
 
 			var correctChoicesID = new Array("q1c4", "q2c2", "q3c1", "q4c2", "q5c3", "q6c3", "q7c3", "q8c4", "q9c2", "q10c2");
 			
 			clearAnswers(); // Make sure answers are cleared before updating
+			correctAnswer = 0;
 
 			for (questionNum = 1; questionNum <= maxQuestion; questionNum++){
 				for (choiceNum = 1; choiceNum <= maxChoice; choiceNum++){
@@ -47,6 +53,14 @@
 					if( document.getElementById(currentID) != null && document.getElementById(currentID).checked){
 						showCorrect(currentID, correctChoicesID[questionNum - 1]);
 					}
+				}
+			}
+
+			if (correctAnswer >= 5) {
+				var hiddenElements = document.getElementsByClassName("hiddenRewards");
+
+				for (i = 0; i < hiddenElements.length; i++) {
+				    hiddenElements[i].style.display = "initial";
 				}
 			}
 		}
@@ -57,10 +71,14 @@
 		function showCorrect(chosenID, correctID){
 			document.getElementById("label" + chosenID).style.backgroundColor = "red";
 			document.getElementById("label" + correctID).style.backgroundColor = "#669900";
+			if(chosenID == correctID){
+				correctAnswer++;
+			}
 		}
 
 		// This function will clear the highlighted labels.
 		function clearAnswers(){
+			correctAnswer = 0;
 			for (questionNum = 1; questionNum <= maxQuestion; questionNum++){
 				for (choiceNum = 1; choiceNum <= maxChoice; choiceNum++){
 					currentID = "q" + questionNum + "c" + choiceNum;
@@ -93,6 +111,12 @@
 				<div class="gradient-background">
 					<article>
 						<h2>Welcome to the Minecraft Trivia!</h2>
+						<p>
+							When you have completed the trivia, scroll to the bottom of the page and click &#34;Submit Trivia&#34;. 
+							Your answers will then be graded. Note that you will only be able to see the answers to the questions
+							that you have answered. 
+						</p>
+						<p>If you get 50&#37; correct, you will receive a reward!</p>
 						
 						<form name="trivia" onReset="clearAnswers();">
 							
@@ -203,7 +227,9 @@
 							
 						</form>
 
-						<a href="rewards.html" id="hiddenRewards">Rewards</a>
+						<p class="hiddenRewards">Congratulations! You have gotten 5 or more answers correct!</p>
+						<br class="hiddenRewards" />
+						<a href="rewards.html" class="hiddenRewards">Continue to your reward!</a>
 						
 					</article> 
 				</div>

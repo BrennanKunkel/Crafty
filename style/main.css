@@ -85,31 +85,31 @@ section.main-container {
 	}
 
 
-div.content-container{
+	div.content-container{
 
-	padding: 0px;
-	margin: 0px auto;
-	height:100%;
-	width: 600px
-}
+		padding: 0px;
+		margin: 0px auto;
+		height:100%;
+		width: 600px
+	}
 
 
-div.gradient-background {
-	height: 100%;
-	margin: 0px;
-	padding: 10px;
+	div.gradient-background {
+		height: 100%;
+		margin: 0px;
+		padding: 10px;
 
-	/* Background */
-	background: rgba(0,255,0,.5); /* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
-	background: -webkit-linear-gradient(#199800, rgba(2, 10, 255, 0.51));
-	/* For Opera 11.1 to 12.0 */
-	background: -o-linear-gradient(#199800, rgba(2, 10, 255, 0.51));
-	/* For Fx 3.6 to 15 */
-	background: -moz-linear-gradient(#199800, rgba(2, 10, 255, 0.51));
-	/* Standard syntax */
-	background: linear-gradient(#199800, rgba(2, 10, 255, 0.51));
-}
+		/* Background */
+		background: rgba(0,255,0,.5); /* For browsers that do not support gradients */
+		/* For Safari 5.1 to 6.0 */
+		background: -webkit-linear-gradient(#199800, rgba(2, 10, 255, 0.51));
+		/* For Opera 11.1 to 12.0 */
+		background: -o-linear-gradient(#199800, rgba(2, 10, 255, 0.51));
+		/* For Fx 3.6 to 15 */
+		background: -moz-linear-gradient(#199800, rgba(2, 10, 255, 0.51));
+		/* Standard syntax */
+		background: linear-gradient(#199800, rgba(2, 10, 255, 0.51));
+	}
 
 /* 
 
@@ -191,11 +191,11 @@ img.banner:hover {
 
 /* cursor for clickable items in header */
 a.headerlink:hover, img.banner:hover {
-/* must list the cursor path twice in two different ways (relative to the css file as well as 
-relative to the html file that is active) in order for IE to use it (IE needs the cursor image
-to be listed relative to the active html file. Thus if the index.html is active, it will use
-images/ rather than ../images/). */
-cursor: url(../images/cursor/diamond_sword.cur), url(images/cursor/diamond_sword.cur), default;
+	/* must list the cursor path twice in two different ways (relative to the css file as well as 
+	relative to the html file that is active) in order for IE to use it (IE needs the cursor image
+	to be listed relative to the active html file. Thus if the index.html is active, it will use
+	images/ rather than ../images/). */
+	cursor: url(../images/cursor/diamond_sword.cur), url(images/cursor/diamond_sword.cur), default;
 }
 
 /* This element class makes the header logo image clickable */
