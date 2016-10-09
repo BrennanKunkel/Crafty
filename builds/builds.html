@@ -26,6 +26,33 @@
 		</header>
 		<section class="main-container">
 			<div class="content-container">
+				<div class="content" style="max-width:800px;position:relative">
+		  <img class="mySlides" src="../images/build/2016-09-17_17.18.11.png" style="width:50%">
+		  <img class="mySlides" src="../images/build/2016-09-20_04.49.05.png" style="width:50%">
+		  <img class="mySlides" src="../images/build/2016-09-20_04.49.37.png" style="width:50%">
+		  <img class="mySlides" src="../images/build/2016-09-20_04.49.55.png" style="width:50%">
+					
+				</div>
+
+		<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";
+		  }
+		  x[slideIndex-1].style.display = "block";
+		}
+			</script>
 				<div class="gradient-background">
 					<article></article>
 				</div>
