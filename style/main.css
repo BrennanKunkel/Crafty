@@ -236,3 +236,7 @@ address {
 nav{
 	clear: left;
 }
+
+img.mySlides{
+   height: 100%;	
+}
