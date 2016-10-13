@@ -180,6 +180,7 @@ img.banner:hover {
 	padding-right:10px;
 	text-align:right;
 	color:rgb(200,200,200);
+	
 }
 
 /* cursor for clickable items in header */
@@ -195,13 +196,13 @@ a.headerlink:hover, img.banner:hover {
 a.headerlink, a.headerlink:visited{
 	text-decoration: none;
 	color:rgb(200,200,200);
+	font-size: 1.1em;
 
 }
 
 a.headerlink:hover{
-	size:80px;
 	border-bottom: 2px solid orange;
-	font-size: 1.03em; /* Make the text larger when hovered */
+	font-size: 1.2em; /* Make the text larger when hovered */
 	color: white;
 }
 
@@ -231,7 +232,7 @@ nav{
 }
 
 a.contact_us:hover{
-	cursor: url(../images/cursor/Axe.cur), url(/images/cursor/Axe.cur), default;
-	content: url("../images/blocks/Diamond_Ore_Mining.png" );
+	cursor: url(../images/cursor/Axe.cur), url(images/cursor/Axe.cur), default;
+	content: url(../images/blocks/Diamond_Ore_Mining.png);
 	height:50px;
 }
