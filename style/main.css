@@ -8,12 +8,12 @@ CS 175 Project, Fall 2016
 */
 
 
-/* Import a font from google. */
-@import 'https://fonts.googleapis.com/css?family=Cormorant+Upright';
-/* 
+/* Import a font from google.
 To use this font, use: 
 font-family: 'Cormorant Upright', serif; 
 */
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Upright';
+
 
 /* 
 
@@ -21,13 +21,6 @@ Main site structure styles
 
 */
 
-
-
-/*
-body, div.site, section.main-container, div.content-container, div.gradient-background {
-overflow: auto;
-}
-*/
 body {
 	margin: 0px;
 	padding: 0px;
@@ -39,7 +32,7 @@ body {
 
 div.site {
 
-	margin: 0px auto; /* This, along with max-width, place the content in the center with auto margins on the side. */
+	margin: 0px auto; /* This, along with max-width, places the content in the center with auto margins on the side. */
 	max-width: 960px;
 	min-width: 760px;
 	padding: 0px 10px;
@@ -237,3 +230,8 @@ nav{
 	clear: left;
 }
 
+a.contact_us:hover{
+	cursor: url(../images/cursor/Axe.cur), url(/images/cursor/Axe.cur), default;
+	content: url("../images/blocks/Diamond_Ore_Mining.png" );
+	height:50px;
+}
