@@ -152,6 +152,13 @@ ul.header li{
 	display: inline;
 }
 
+ul.footer li{
+	list-style-type: none;
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 /* header link images */
 img.banner {
 	margin: 0px;
@@ -234,5 +241,11 @@ nav{
 a.contact_us:hover{
 	cursor: url(../images/cursor/Axe.cur), url(images/cursor/Axe.cur), default;
 	content: url(../images/blocks/Diamond_Ore_Mining.png);
+	height:50px;
+}
+
+a.Information:hover{
+	cursor: url(../images/cursor/Axe.cur), url(images/cursor/Axe.cur), default;
+	content: url(../images/blocks/emeraldOreMining.jpg);
 	height:50px;
 }
