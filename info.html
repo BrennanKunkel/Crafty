@@ -31,10 +31,13 @@
 
 		/* Resources table styles */ 
 		table.resources {
-			border: 3px outset gray;
+			border: 3px outset rgb(100,100,100);
+			border-spacing: 5px;
+			border-collapse: separate;
+			background-color: rgb(200, 200, 200);
 		}
 		table.resources th {
-			border: 1px solid orange;
+			border: 1px solid lightgreen;
 		}
 		table.resources thead {
 			background-color: green;
@@ -42,7 +45,9 @@
 		table.resources tbody th:first-of-type {
 			background-color: blue;
 		}
-
+		table.resources tbody tr {
+			background-color: rgb(50, 50, 50);
+		}
 	</style>
 </head>
 
