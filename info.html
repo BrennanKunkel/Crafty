@@ -29,8 +29,18 @@
 			background-color: rgba(20, 20, 20, .3);
 		}
 
+		/* Resources table styles */ 
 		table.resources {
-
+			border: 3px outset gray;
+		}
+		table.resources th {
+			border: 1px solid orange;
+		}
+		table.resources thead {
+			background-color: green;
+		}
+		table.resources tbody th:first-of-type {
+			background-color: blue;
 		}
 
 	</style>
@@ -143,7 +153,7 @@
 						</div>
 
 						<div>
-							<table class="resources">
+							<table class="resources" summary="This table represents the desirability of resources in the Alya Kemi realm.">
 								<caption>Top 10 Desirable Resources in Alya Kemi</caption>
 								<thead>
 									<tr>
