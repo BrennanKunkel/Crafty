@@ -47,10 +47,9 @@
 
 		function validateForm(){
 
-			var correctChoicesID = new Array("q1c4", "q2c2", "q3c1", "q4c2", "q5c3", "q6c3", "q7c3", "q8c4", "q9c2", "q10c2");
+			var correctChoicesID = new Array("q1c4", "q2c2", "q3c1", "q4c2", "q5c3", "q6c3", "q7c3", "q8c4", "q9c1", "q10c2");
 			
 			clearAnswers(); // Make sure answers are cleared before updating
-			correctAnswer = 0;
 
 			for (questionNum = 1; questionNum <= maxQuestion; questionNum++){
 				for (choiceNum = 1; choiceNum <= maxChoice; choiceNum++){
